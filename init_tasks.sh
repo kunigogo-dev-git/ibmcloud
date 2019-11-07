@@ -1,3 +1,3 @@
 #!/bin/bash
 
-mkdir -p /home/gitpod/.bluemix/plugins
+#mkdir -p /home/gitpod/.bluemix/plugins
