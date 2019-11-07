@@ -1,4 +1,4 @@
-  
+
 FROM gitpod/workspace-full-vnc:latest
 
 # install custom tools, runtime, etc.
@@ -6,3 +6,9 @@ FROM gitpod/workspace-full-vnc:latest
 USER root
 # Install custom tools, runtime, etc.
 RUN curl -sL https://ibm.biz/idt-installer | bash
+
+USER gitpod
+
+RUN mkdir /home/gitpod/.bluemix/plugins
+
+USER root
