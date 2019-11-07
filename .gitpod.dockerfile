@@ -9,6 +9,6 @@ RUN curl -sL https://ibm.biz/idt-installer | bash
 
 USER gitpod
 
-RUN mkdir /home/gitpod/.bluemix/plugins
+RUN mkdir -p /home/gitpod/.bluemix/plugins
 
 USER root
